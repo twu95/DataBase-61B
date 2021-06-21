@@ -1,0 +1,9 @@
+load blank;
+insert into blank values 'abcdefg', 'hijklmno', 'pqr';
+insert into blank values 'stuvw', 'xyz', '0123456789_';
+insert into blank values 'ABCDEFG', 'HIJKLMNO', 'PQR';
+insert into blank values 'STUVW', 'XYZ', '0123456789_';
+insert into blank values 'abcdefg', 'hijklmno', 'pqr';
+insert into blank values '!@#$%^&', '*()-=+|\~`{}', '[];:"<.?/';
+print blank;
+quit;

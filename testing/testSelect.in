@@ -1,0 +1,11 @@
+load schedule ;
+select CCN from schedule ;
+select CCN, Num, Dept from schedule ;
+load enrolled2;
+select SID from enrolled2 where CCN > '200';
+select CCN from enrolled2 where Grade = 'B+';
+select CCN from schedule where Sem = 'F' and Year = '2003';
+load enrolled;
+load students;
+select SID from students, enrolled;
+quit ;

@@ -1,0 +1,3 @@
+load enrolled2 ;
+select SID, Grade from enrolled2 ;
+quit ;

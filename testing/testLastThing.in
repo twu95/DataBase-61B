@@ -1,0 +1,9 @@
+load enrolled;
+load schedule;
+load students;
+create table enrolled2 as
+  select SID
+     from enrolled, schedule
+     where Dept = 'EECS' and Num = '61A';
+select Firstname, Lastname from students, enrolled2;
+quit;

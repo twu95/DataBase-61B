@@ -1,0 +1,4 @@
+load generic1; load generic3;
+
+select Col1, Col2, Col3, Col4, Col5 from generic1, generic3;
+select Col1, Col2, Col3, Col4, Col5  from generic3, generic1;
